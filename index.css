@@ -1,23 +1,24 @@
-*{
-    margin: auto;
-    padding: 0;
-}
 
-.main{
-    width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,0,5)50%,rgba(0,0,0,0,5)50%),url(logo.png)
-}
-.website-title {
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
     text-align: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-}
-.background image {
-background-image: url('background.png.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-}
+    line-height: 75px;
+    font-size: 30px;
+  }
+  #example1 {
+    background-image: url(download.jpg), url(download.jpg));
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    background-size:cover;
+  }

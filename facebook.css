@@ -1,0 +1,50 @@
+body{
+    background-color: #f1f2f4;
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: red;
+
+}
+.left_item{
+    width: 50%;
+
+}
+.right_item{
+    width: 50%;
+    background-color: rgb(red, green, blue);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 8px;
+     padding: 50px;
+    border: 1px solid red;
+    box-sizing: 100px; 
+    box-shadow: #f3f3f3;
+}
+.form-box{
+    border: red;
+    width: 50%;
+}
+button{
+    width: 100px;
+    height: 20px;
+    margin-top: 12px;
+    color: #1977f3;
+}
+.right_item >p{
+    color: #669df5;
+}
+button1{
+    width: 150px;
+    height: 20px;
+    margin-top: 12px;
+    color: #42b72a;
+}
